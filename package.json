@@ -1,6 +1,6 @@
 {
   "name": "@daniloster/i18n",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "Library to apply internationalization for node or javascript projects",
   "main": "lib/index.js",
   "types": "lib/types.d.ts",
@@ -74,6 +74,7 @@
     "mutation-helper": "1.0.0"
   },
   "resolutions": {
-    "jsdom": "16.2.2"
+    "jsdom": "16.2.2",
+    "lodash": "4.17.19"
   }
 }

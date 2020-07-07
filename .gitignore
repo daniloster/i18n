@@ -17,4 +17,5 @@ lib/
 **/coverage/
 **/.coverage/
 **/jest-cache/
+**/.jest-cache/
 **/__data__/**

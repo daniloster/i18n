@@ -2,7 +2,7 @@ process.env.TZ = 'UTC'
 process.env.NODE_ICU_DATA = 'node_modules/full-icu'
 
 module.exports = {
-  cacheDirectory: './jest-cache',
+  cacheDirectory: './.jest-cache',
   coverageReporters: ['html', 'json', 'lcov', 'text'],
   coverageDirectory: '<rootDir>/coverage/',
   collectCoverage: true,

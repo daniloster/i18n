@@ -36,7 +36,7 @@ beforeEach(() => {
   mockMutationObserver()
   mockNavigator()
   HTMLElement.prototype.scrollIntoView = noop
-  localStorage.setItem('language', 'en')
+  localStorage.setItem('language', '')
   jest.useRealTimers()
 })
 
