@@ -4,7 +4,7 @@
 **/coverage
 **/mochawesome-report
 **/mochawesome-reports
-**/jest-cache
+**/.jest-cache/
 **/.github/
 **/.workflow/
 .travis/

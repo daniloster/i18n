@@ -1,9 +1,9 @@
 import { Server } from 'miragejs'
 import en from '../../DEV/assets/locales/en.json'
 import es from '../../DEV/assets/locales/es.json'
-import ptBR from '../../DEV/assets/locales/pt.json'
+import pt from '../../DEV/assets/locales/pt.json'
 
-const resources = { 'en.json': en, 'pt-BR.json': ptBR, 'es.json': es }
+const resources = { 'en.json': en, 'pt.json': pt, 'es.json': es }
 
 /**
  * Creates a mock api server which mimics the api service behaviour
@@ -34,7 +34,7 @@ export default function startMirage(environment = 'development') {
         (schema, request) => {
           const { language } = request.params
 
-          // console.log({ language, resources: !!resources[language] })
+          // console.log({ language, resources: resources[language] })
 
           return resources[language]
         },

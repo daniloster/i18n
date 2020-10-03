@@ -1,0 +1,10 @@
+{
+  "PageOne": {
+    "hello": "Ola Mundo",
+    "interpolation": {
+      "text": "Ei, {name}! É bom ter você aqui. Obrigado {name} por ter vindo.",
+      "nodes": "Ei, {name}! É bom <decorator> tê-lo aqui </decorator>. Obrigado {name} por ter vindo.",
+      "simple": "Ei {name} (super fantástico)!"
+    }
+  }
+}
